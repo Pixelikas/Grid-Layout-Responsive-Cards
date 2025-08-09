@@ -1,0 +1,21 @@
+#grid-container{
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.cards{
+
+    width: 200px;
+    height: 200px;
+    color: whitesmoke;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
